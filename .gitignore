@@ -1,0 +1,53 @@
+# Flutter
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+*.lock
+generated_plugin_registrant.dart
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner.xcodeproj/project.xcworkspace/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+*.xcuserstate
+*.xcworkspace
+*.swiftsourceinfo
+*.xcsettings
+*.pbxuser
+
+# Android
+android/.gradle/
+android/.idea/
+*.iml
+*.apk
+*.keystore
+
+# VS Code & IntelliJ
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node.js backend (optional)
+node_modules/
+.env
+npm-debug.log*
+
+# Python backend (optional)
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.sqlite3

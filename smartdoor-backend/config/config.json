@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "smartuser",  
+    "password": "smartpass",  
+    "database": "smartdoor",  
+    "host":  "127.0.0.1", 
+    "dialect": "mysql",
+    "port":  3306  
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host":  "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username":  "smartuser",
+    "password": "smartpass",
+    "database":  "smartdoor",
+    "host": "7.tcp.eu.ngrok.io",
+    "dialect": "mysql",
+    "port":  12889
+  }
+}
